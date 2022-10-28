@@ -1,0 +1,74 @@
+:root{
+    --primary-color: yellow;
+    --secondary-color: #000000b8;
+}
+
+textarea{
+    height:  10vh;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 1rem auto;
+}
+
+#output{
+    border: solid 1px var(--secondary-color);
+    display: flex;
+    justify-items: center;
+    height:  10vh;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+body{
+    margin: auto 15%;
+}
+
+.Header{
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 2rem;
+    margin: 0%;
+    border-radius: 3rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.button{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+}
+button{
+    background-color: var(--primary-color);
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+}
+
+.handpoint{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 3rem;
+    position: fixed;
+    bottom: 0%;
+    right: 15%;
+    left: 15%;
+}
+footer h3{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 0% auto;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
